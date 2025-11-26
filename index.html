@@ -54,12 +54,10 @@ var scene = new THREE.Scene();
 /* ---------------- CÁMARA ---------------- */
 var camera = new THREE.PerspectiveCamera(
     70,
-    window.innerWidth / window.innerHeight,
-    0.1,
-    2000
+    window.innerWidth / window.innerHeight, 0.1,  2000
 );
 scene.add(camera);
-camera.position.set(0, 0, 20);
+camera.position.set(0, 800, 900);
 
 /* ---------------- RESIZE ---------------- */
 var sizes = {
